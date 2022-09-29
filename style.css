@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    text-align:left;
+}
+header, footer, .col {
+padding: 15px;
+outline: 1px solid rgba(250, 99, 250, 0.783);
+}
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: rgba(240, 240, 4, 0.637);
+}
+.row {
+    display: flex;
+}
+.col{
+    flex-grow: 1;
+}
+.nav{
+max-width: 250px;
+}
+.main {
+    max-width: 400px;
+}
+.ads {
+    max-width: 250px;
+}
+header, footer {
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.wrap {
+    height: calc(90vh - 250px);
+}
